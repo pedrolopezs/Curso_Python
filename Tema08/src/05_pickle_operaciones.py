@@ -8,7 +8,7 @@ Advertencia:
 import pickle
 from pathlib import Path
 
-carpeta = Path("data")
+carpeta = Path("Tema08/data")
 carpeta.mkdir(parents=True, exist_ok=True)
 ruta_pickle = carpeta / "servicios1.pkl"
 

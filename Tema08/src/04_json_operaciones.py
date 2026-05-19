@@ -8,7 +8,7 @@ Objetivo:
 import json
 from pathlib import Path
 
-carpeta = Path("data")
+carpeta = Path("Tema08/data")
 carpeta.mkdir(parents=True, exist_ok=True)
 ruta_json = carpeta / "servicios1.json"
 

@@ -11,7 +11,7 @@ Requisitos:
 """
 from pathlib import Path
 
-carpeta = Path("data")
+carpeta = Path("Tema08/data")
 imagen_original = carpeta / "gatito.jpg"
 imagen_modificada = carpeta / "gatito2.jpg"
 marcador = "##INICIO##".encode("utf-8")

@@ -9,7 +9,7 @@ Objetivo:
 from pathlib import Path
 
 print("=== 1. Crear rutas con Path ===")
-carpeta = Path("data")
+carpeta = Path("Tema08/data")
 ruta = carpeta / "pathlib_demo.txt"
 print("Carpeta relativa:", carpeta)
 print("Ruta relativa:", ruta)

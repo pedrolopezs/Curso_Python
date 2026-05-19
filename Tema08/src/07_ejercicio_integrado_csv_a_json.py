@@ -10,7 +10,7 @@ import csv
 import json
 from pathlib import Path
 
-carpeta = Path("data")
+carpeta = Path("Tema08/data")
 carpeta.mkdir(parents=True, exist_ok=True)
 entrada_csv = carpeta / "inventario_empresa.csv"
 salida_json = carpeta / "inventario_empresa_normalizado.json"

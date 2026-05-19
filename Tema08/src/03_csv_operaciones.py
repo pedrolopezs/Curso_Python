@@ -9,7 +9,7 @@ Objetivo:
 import csv
 from pathlib import Path
 
-carpeta = Path("data")
+carpeta = Path("Tema08/data")
 carpeta.mkdir(parents=True, exist_ok=True)
 
 print("=== 1. Escribir CSV con csv.writer ===")
