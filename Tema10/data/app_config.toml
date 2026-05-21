@@ -1,0 +1,9 @@
+[server]
+host = "localhost"
+port = 8080
+debug_mode = true
+allowed_origins = ["127.0.0.1", "localhost"]
+
+[security]
+ssl_required = false
+session_timeout = 3600

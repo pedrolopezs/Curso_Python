@@ -1,0 +1,17 @@
+[
+    {
+        "servicio": "ssh",
+        "puerto": 22,
+        "estado": "OK"
+    },
+    {
+        "servicio": "nginx",
+        "puerto": 443,
+        "estado": "OK"
+    },
+    {
+        "servicio": "api",
+        "puerto": 8080,
+        "estado": "ERROR"
+    }
+]
