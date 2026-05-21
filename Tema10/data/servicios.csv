@@ -1,4 +1,0 @@
-servicio,puerto,estado
-ssh,22,OK
-nginx,443,OK
-api,8080,ERROR

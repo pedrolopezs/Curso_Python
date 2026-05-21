@@ -1,6 +1,0 @@
-2026-05-21 22:32:07 | INFO | Inicio de comprobación de infraestructura.
-2026-05-21 22:32:07 | WARNING | Latencia alta detectada en el servicio API.
-2026-05-21 22:32:07 | ERROR | Fallo en nodo srv-db-01: Conexión rechazada por el puerto 5432
-2026-05-21 22:33:24 | INFO | Inicio de comprobación de infraestructura.
-2026-05-21 22:33:24 | WARNING | Latencia alta detectada en el servicio API.
-2026-05-21 22:33:24 | ERROR | Fallo en nodo srv-db-01: Conexión rechazada por el puerto 5432
