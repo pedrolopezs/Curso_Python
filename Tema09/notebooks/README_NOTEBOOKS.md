@@ -1,31 +1,22 @@
-# Tema 9 · Notebooks de laboratorio
+# Notebooks del Tema 9 - Módulos
 
-Estos notebooks están pensados para abrirse desde `Tema09/notebooks`.
+Estos notebooks trabajan contra la estructura `Tema09/src`.
 
-Estructura esperada:
+Criterio usado en esta versión:
 
-```text
-Tema09/
-├── src/
-└── notebooks/
+- Las ejecuciones Python externas se muestran con celdas `%%bash` y heredoc.
+- El código que se ejecuta aparece completo dentro del heredoc, no como una lectura opaca de un fichero con `exec()`.
+- Los módulos importables no llevan numeración: `validaciones.py`, `diagnostico.py`, `soporte_ti/red.py`, `soporte_ti/reportes.py`.
+- Los scripts de laboratorio sí llevan numeración: `01_import_completo.py`, `02_import_recurso.py`, etc.
+
+Ejemplo de patrón de ejecución:
+
+```bash
+%%bash
+cd ../src
+python - <<'PY'
+import validaciones
+
+print(validaciones.puerto_valido(443))
+PY
 ```
-
-Cada notebook localiza automáticamente el directorio `src` y lo guarda en la variable de entorno `TEMA09_SRC`.
-
-En este tema se ejecutan los scripts desde `src` usando celdas `%%bash` y comandos como `python fichero.py`. Este enfoque reproduce mejor el comportamiento de una terminal real y evita problemas de caché de imports dentro del kernel de Jupyter.
-
-Orden recomendado:
-
-1. `01_Modulo_Validaciones.ipynb`
-2. `02_Import_Completo.ipynb`
-3. `03_Import_Recurso.ipynb`
-4. `04_Import_Alias.ipynb`
-5. `05_Import_Todo_No_Recomendado.ipynb`
-6. `06_Modulo_Importable_Main.ipynb`
-7. `07_Errores_Importacion_Pycache.ipynb`
-8. `08_Paquete_Propio_Soporte_TI.ipynb`
-
-
-## Nota de ejecución
-
-Las celdas que prueban scripts externos usan `%%bash` con heredoc (`python - <<'PY' ... PY`) para que el código se muestre en varias líneas y mantenga una ejecución equivalente a terminal desde `Tema09/src`.
