@@ -10,7 +10,9 @@ Tema09/
 └── notebooks/
 ```
 
-Cada notebook localiza automáticamente el directorio `src` y ejecuta los scripts desde allí. En este tema se ejecutan scripts con `python fichero.py` para evitar problemas de caché de imports dentro del kernel de Jupyter.
+Cada notebook localiza automáticamente el directorio `src` y lo guarda en la variable de entorno `TEMA09_SRC`.
+
+En este tema se ejecutan los scripts desde `src` usando celdas `%%bash` y comandos como `python fichero.py`. Este enfoque reproduce mejor el comportamiento de una terminal real y evita problemas de caché de imports dentro del kernel de Jupyter.
 
 Orden recomendado:
 
