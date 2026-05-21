@@ -24,3 +24,8 @@ Orden recomendado:
 6. `06_Modulo_Importable_Main.ipynb`
 7. `07_Errores_Importacion_Pycache.ipynb`
 8. `08_Paquete_Propio_Soporte_TI.ipynb`
+
+
+## Nota de ejecución
+
+Las celdas que prueban scripts externos usan `%%bash` con heredoc (`python - <<'PY' ... PY`) para que el código se muestre en varias líneas y mantenga una ejecución equivalente a terminal desde `Tema09/src`.
